@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+
+<body bgcolor="pink">
+  <h3>Completa tu formulario</h3>
+  <form>
+    <label for="">Nombre:</label>
+    <input type="text" placeholder="ingrese su nombre" maxlength="30" required pattern="[a-zA-Z]+"/>
+    <br />
+    <br />
+    <label for="">Apellido:</label>
+    <input type="text" placeholder="ingrese su apellido" maxlength="80" required pattern="[a-zA-Z]+">
+
+    <br />
+    <br />
+    <label for="">Contraseña:</label>
+    <input type="password" placeholder="ingrese su contraseña" maxlength="10" minlength="5" required />
+    <br />
+    <br />
+    <label for="">Dni:</label>
+    <input type="text" placeholder="ingrese su DNI" maxlength="10" minlength="8" required pattern="[0-9]+">
+    <br><br />
+    <label for="">Correo:</label>
+    <input type="email" placeholder="abc@abc.com" required />
+    <br />
+    <br />
+    <input type="date" name="" id=""> <br><br /><input type="time" />
+    <br><br />
+
+    <label class="radio-inline">
+      <input type="radio" name="Tipo" required value=1>Hombre 
+      <label class="radio-inline">
+        <input type="radio" name="Tipo" value=2>Mujer
+        <label class="radio-inline">
+          <input type="radio" name="Tipo" value=3>Prefiero no decirlo
+          <br><br />
+          <strong>Seleccione imagen</strong>
+          <input type="file" name="imagen" id="imagen" required>
+          <br><br />
+          <label><input type="checkbox" checked> Suscripción al boletin de novedad</label><br>
+          <br><br />
+          <input type="submit" value="Enviar">
+
+
+
+
+
+
+
+  </form>
+</body>
+
+</html>
